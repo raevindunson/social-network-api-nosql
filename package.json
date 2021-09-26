@@ -1,0 +1,24 @@
+{
+  "name": "social-network-api-nosql",
+  "version": "1.0.0",
+  "description": "## About This application uses MongoDB, Mongoose, and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raevindunson/social-network-api-nosql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raevindunson/social-network-api-nosql/issues"
+  },
+  "homepage": "https://github.com/raevindunson/social-network-api-nosql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7"
+  }
+}
