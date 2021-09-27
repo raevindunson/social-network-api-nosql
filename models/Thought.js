@@ -19,4 +19,25 @@ const thoughtSchema = new Schema (
     }
 )
 
+const reactionSchema = new Schema(
+    {
+        reactionId: {
+            type: Object
+        },
+        reactionBody: {
+            type: String,
+            required: true,
+            length: [1,280]
+        },
+        username: {
+            type: String,
+            required: true
+        },
+        createdAt: {
+            type: Date,
+            default: Date.now
+        }
+    }
+)
+
 module.exports = Thought;
