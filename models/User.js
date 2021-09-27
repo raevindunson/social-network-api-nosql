@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require('mongoose');
+const Thought = require("./Thought");
 
 const userSchema = new Schema (
     {
@@ -12,7 +13,9 @@ const userSchema = new Schema (
             type: String,
             required: true,
             unique: true,
-        }
+        },
+        thoughts: [thoughtText, createdAt, username, reactions],
+        friends: [username, email]
     }
 )
 
