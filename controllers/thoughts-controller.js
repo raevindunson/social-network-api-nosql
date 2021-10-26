@@ -7,10 +7,27 @@ const thoughtController = {
     findThoughtbyID() {
 
     },
+
     addThought({ params, body}, res) {
         Thought.create(body)
         .then((id) => {
             
         })
+    },
+    addReaction() {
+
+    },
+
+    updateThought({}) {
+
+    },
+
+    deleteThought() {
+
+    },
+    deleteReaction(){
+
     }
-}
+};
+
+module.exports = thoughtController;
