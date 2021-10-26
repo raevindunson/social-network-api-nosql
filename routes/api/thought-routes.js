@@ -9,3 +9,5 @@ const {
     deleteThought,
     deleteReaction
 } = require("../../controllers/thoughts-controller")
+
+module.exports = router
