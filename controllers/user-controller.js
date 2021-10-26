@@ -34,3 +34,5 @@ const userController = {
 };
 
 module.exports = userController;
+
+// HELPED FROM MODULE 18 COURSEWORK FROM GW CODING BOOTCAMP
