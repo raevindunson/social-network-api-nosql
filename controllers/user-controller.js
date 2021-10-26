@@ -17,12 +17,18 @@ const userController = {
                 res.json(userData)
         })
     },
+    addFriend({body}, res) {
+
+    },
 
     updateUser({ params, body}, res) {
 
     },
 
     deleteUser({ params}, res) {
+
+    },
+    deleteFriend({params}, res) {
 
     }
 };
